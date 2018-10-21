@@ -95,8 +95,8 @@ body {
 #menu h1 
 {
     text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
 }
 #contact h1 
 {
@@ -123,4 +123,27 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
+}
+@media(max-width:768px){
+    #menu img 
+    {
+        width:60vh;
+    }
+    #menu .card 
+    {
+        padding-bottom: 2vh;
+    }
+    #navigation img 
+    {
+        width: 60vh;
+        
+    }
+    #navigation h1 
+    {
+        visibility: hidden;
+    }
+     #navigation h2 
+    {
+        visibility:hidden;
+    }
 }
