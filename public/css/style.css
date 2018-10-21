@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+    overflow-x: hidden !important;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+#navigation{
+    height: 95vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/rohu-fish.jpg') center center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+   
+}
+.navbar 
+{
+    background-color: rgba(0,0,0,0.3) !important;
+}
+.navbar a 
+{
+    color:white !important;
+}
+#header
+{
+    padding-top: 25vh;
+}
+#header h1
+{
+   text-align: center;
+    color: white;
+   margin-top: 10vh;
+}
+#header h2
+{
+    margin-top: 2vh;
+    text-align: center;
+    color: white;
+}
+#header img
+{
+    height: 45vh;
+    width: 75vh;
+    
+}
+#header>.card 
+{
+    padding-top: 25vh ;
+}
+#about 
+{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+#about h1 
+{
+    text-align: center;
+     font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+#about p
+{
+    font-family: "Open Sans", sans-serif;
+}
+#img-section1
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/litii-choka.jpg') ;
+    height:55vh;
+	background-size:cover;
+	display:flex;
+	background-attachment:fixed;
+}
+#img-section2
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/chicken-background.jpg');
+    height: 55vh;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+}
+#menu
+{
+    margin-top: 10vh;  
+    margin-bottom: 10vh;
+}
+#menu img
+{
+    height: 40vh;
+    width:35vh;
+    display: block;
+}
+#menu h1 
+{
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+#contact h1 
+{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#contact h2 
+{
+    text-align: center;
+    padding-top: 2.5vh;
+}
+#contact h5 
+{
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
