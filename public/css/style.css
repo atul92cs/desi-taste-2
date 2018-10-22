@@ -75,7 +75,7 @@ body {
 }
 #img-section2
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/chicken-background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/chicken.JPG');
     height: 55vh;
     background-size: cover;
     display: flex;
